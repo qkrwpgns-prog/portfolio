@@ -64,6 +64,13 @@ python3 scripts/build.py --check
 
 미리보기: `python3 scripts/build.py --serve` → http://localhost:8000 (초안 포함은 `/?draft`)
 
+## 버전 관리 (git)
+
+- 작업 단위(inbox 정리 1회, 프로젝트 1개 첨삭 반영 등)가 끝날 때마다 커밋한다. 메시지는 한국어로 `무엇을 왜` 한 줄.
+  예: `쇼핑몰 프로젝트 초안 작성 (inbox 자료 기반)`, `중고거래 프로젝트 첨삭 반영: 결과 수치 표 추가`
+- **첨삭을 반영할 때는 반영 전 상태가 커밋되어 있어야 한다.** 그래야 사용자가 `git diff`로 내가 바꾼 부분만 볼 수 있다.
+- push는 사용자가 요청할 때만.
+
 ## 배포
 
 정적 사이트라 GitHub Pages / Netlify / Vercel에 폴더째 올리면 된다. 빌드 단계 없음 (`projects.json`만 커밋 전에 최신이면 됨).
