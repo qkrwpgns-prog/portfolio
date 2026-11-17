@@ -1,28 +1,29 @@
 {
-  "name": "홍길동",
-  "role": "희망 직무를 입력하세요",
-  "headline": "문제를 끝까지 파고드는 신입 ○○입니다",
-  "tagline": "한두 문장의 자기소개. 어떤 문제를 어떻게 풀어왔는지 보여주는 문장이 좋습니다. (예시 문구 — inbox에 자료를 올리면 Claude가 다시 씁니다)",
-  "email": "",
+  "name": "박제훈",
+  "role": "마케팅 · 광고 기획",
+  "headline": "문제를 정의하고, AI로 직접 만들고, 반응을 보고 고칩니다",
+  "tagline": "동의대학교 미디어커뮤니케이션학과 3학년. 공모전 기획, AI 단편 영화, 웹앱 제작과 사용자 테스트까지 기획한 것을 끝까지 만들어 본 경험이 있습니다.",
+  "email": "qkrwpgns0312@naver.com",
   "phone": "",
   "resume": "",
   "links": {
-    "github": "",
-    "blog": "",
-    "linkedin": ""
+    "github": "https://github.com/qkrwpgns-prog",
+    "youtube": "https://youtu.be/ewYc5vjO67w"
   },
   "skills": {
-    "주요 기술": ["예시 1", "예시 2", "예시 3"],
-    "도구": ["Git", "Notion", "Figma"],
-    "협업": ["애자일 스프린트", "코드 리뷰"]
+    "기획": ["타깃 분석", "인사이트 도출", "전략·캠페인 기획", "발표"],
+    "콘텐츠 제작": ["시나리오", "스토리보드", "영상 편집", "홍보 웹툰"],
+    "AI 툴": ["Gemini", "Midjourney", "Magnific", "Suno"],
+    "툴 · 자격": ["Premiere Pro", "GA4", "GitHub Pages"]
   },
   "experience": [
-    { "period": "2025.07 – 2025.12", "title": "예시: 인턴 / 동아리 / 대외활동", "org": "기관명", "desc": "무엇을 했는지 한 줄" }
+    { "period": "2026", "title": "KOSAC 2026 대한민국 대학생 광고대회 참가", "org": "삼성화재 과제 · 2인 팀(당프로팀)", "desc": "2030 건강보험 캠페인 기획, 앱 시안 제작, 발표" },
+    { "period": "2026", "title": "나 혼자만 레벨업 팝업스토어 운영 봉사", "org": "1일 · 방문객 400명 이상", "desc": "방문객 안내와 체험 운영" }
   ],
   "education": [
-    { "period": "2021.03 – 2026.02", "title": "○○학과 학사", "org": "○○대학교" }
+    { "period": "2023.03 – 재학 중", "title": "미디어커뮤니케이션학과 (3학년)", "org": "동의대학교" }
   ],
   "certificates": [
-    { "period": "2025.06", "title": "예시 자격증", "org": "발급 기관" }
+    { "period": "2026.08", "title": "Google Analytics 4 (GA4) 자격증", "org": "Google" }
   ]
 }

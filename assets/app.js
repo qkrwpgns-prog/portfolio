@@ -29,7 +29,7 @@
   const scrollToId = id => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   const visible = p => showDrafts || (p.status || "published") !== "draft";
-  const linkLabel = { github: "GitHub", demo: "Demo", blog: "Blog", linkedin: "LinkedIn", notion: "Notion", velog: "velog", video: "영상", slides: "발표자료", paper: "논문" };
+  const linkLabel = { github: "GitHub", demo: "Demo", youtube: "YouTube", app: "앱 체험", demo2: "데모 2", blog: "Blog", linkedin: "LinkedIn", notion: "Notion", velog: "velog", video: "영상", slides: "발표자료", paper: "논문" };
 
   function renderHome() {
     document.title = `${profile.name} · ${profile.role || "Portfolio"}`;
@@ -73,6 +73,7 @@
             <a class="card" href="#/project/${encodeURIComponent(p.slug)}">
               ${p.thumbnail ? `<img class="thumb" src="${esc(p.thumbnail)}" alt="" loading="lazy">` : `<div class="thumb ph">${esc((p.title || "?").slice(0, 1))}</div>`}
               <div class="body">
+                ${highlights(p)}
                 <h3>${esc(p.title)}${p.status === "draft" ? '<span class="badge">초안</span>' : ""}</h3>
                 <p>${esc(p.summary)}</p>
                 <div class="meta">${esc(p.period || "")}${p.role ? " · " + esc(p.role) : ""}</div>
@@ -95,6 +96,9 @@
     });
   }
 
+  const highlights = p => (p.highlights || []).length
+    ? `<div class="highlights">${p.highlights.map(h => `<span class="hl">${esc(h)}</span>`).join("")}</div>` : "";
+
   function timeline(id, title, items) {
     if (!items || !items.length) return "";
     return `<section id="${id}"><h2>${title}</h2><ul class="timeline">
@@ -110,16 +114,17 @@
     app.innerHTML = `<p class="loading">불러오는 중…</p>`;
     const body = stripFrontmatter(await fetchText(`content/projects/${p.file}`));
     document.title = `${p.title} · ${profile.name}`;
-    const facts = [["기간", p.period], ["역할", p.role], ["팀 구성", p.team], ["기술", (p.stack || []).join(", ")]].filter(([, v]) => v);
+    const facts = [["기간", p.period], ["역할", p.role], ["팀 구성", p.team], ["결과", p.result], ["사용 툴", (p.stack || []).join(", ")]].filter(([, v]) => v);
     const links = Object.entries(p.links || {}).filter(([, v]) => v);
     app.innerHTML = `
       <article class="detail">
         <a class="back" href="#/">← 전체 프로젝트</a>
+        ${highlights(p)}
         <h1>${esc(p.title)}${p.status === "draft" ? '<span class="badge">초안</span>' : ""}</h1>
         <p class="summary">${esc(p.summary)}</p>
         ${links.length ? `<div class="links" style="margin-bottom:24px">${links.map(([k, v]) => `<a class="btn" href="${esc(v)}" target="_blank" rel="noopener">${esc(linkLabel[k] || k)} ↗</a>`).join("")}</div>` : ""}
         ${facts.length ? `<dl class="facts">${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
-        ${p.thumbnail ? `<img class="cover" src="${esc(p.thumbnail)}" alt="">` : ""}
+        ${p.cover ? `<img class="cover" src="${esc(p.cover)}" alt="">` : ""}
         <div class="prose">${md(body)}</div>
       </article>`;
     window.scrollTo(0, 0);

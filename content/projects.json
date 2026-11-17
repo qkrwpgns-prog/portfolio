@@ -2,29 +2,146 @@
   "generated": "2026-11-17",
   "projects": [
     {
-      "title": "예시 프로젝트 — 캠퍼스 중고거래 앱",
-      "summary": "학내 중고거래 채팅 응답 지연을 줄여 거래 성사율을 높인 팀 프로젝트 (예시 글)",
-      "period": "2025.03 – 2025.06",
-      "role": "백엔드 개발 · 팀장",
-      "team": "4명 (기획 1, 개발 2, 디자인 1)",
+      "title": "AI 단편 영화 〈심연의 메아리〉",
+      "summary": "시나리오부터 편집까지 혼자 4주 만에 완성한 2분 32초 AI 단편 영화",
+      "period": 2026,
+      "role": "기획 · 시나리오 · AI 영상 제작 · 편집 (1인)",
+      "team": "개인 작업 (수업 과제)",
+      "result": "수업 평가 A+",
+      "highlights": [
+        "2분 32초",
+        "제작 4주",
+        "수업 평가 A+"
+      ],
       "tags": [
-        "웹",
-        "팀 프로젝트"
+        "콘텐츠 제작",
+        "AI"
       ],
       "stack": [
-        "Spring Boot",
-        "MySQL",
-        "Redis",
-        "AWS"
+        "Gemini",
+        "Midjourney",
+        "Magnific",
+        "Suno",
+        "Premiere Pro"
       ],
+      "thumbnail": "assets/images/abyss/03-vortex.jpg",
       "status": "published",
       "order": 1,
       "links": {
-        "github": "https://github.com/",
-        "demo": ""
+        "youtube": "https://youtu.be/ewYc5vjO67w"
       },
-      "slug": "example-project",
-      "file": "example-project.md"
+      "slug": "ai-film-abyss",
+      "file": "ai-film-abyss.md"
+    },
+    {
+      "title": "키프 · 타임 키퍼 — AI로 만든 생활 불편 해결 웹앱",
+      "summary": "일상의 불편을 직접 정의하고 AI로 웹앱 2개를 만들어 사용자 테스트로 고쳤다",
+      "period": 2026,
+      "role": "기획 · 제작 · 사용자 테스트 · 홍보 콘텐츠 (1인)",
+      "team": "개인 작업 (멀티모달콘텐츠 수업)",
+      "result": "테스트 피드백 반영해 키프 개선, 외부 배포",
+      "highlights": [
+        "웹앱 2개",
+        "사용자 테스트 5명",
+        "GitHub Pages 배포"
+      ],
+      "tags": [
+        "서비스 기획",
+        "AI"
+      ],
+      "stack": [
+        "AI 웹앱 제작",
+        "GitHub Pages",
+        "AI 이미지 생성"
+      ],
+      "thumbnail": "assets/images/keep/keep-home.jpg",
+      "status": "published",
+      "order": 2,
+      "links": {
+        "키프 체험": "https://qkrwpgns-prog.github.io/keep/",
+        "타임 키퍼 체험": "assets/demos/timekeeper.html"
+      },
+      "slug": "keep-timekeeper",
+      "file": "keep-timekeeper.md"
+    },
+    {
+      "title": "KOSAC 2026 삼성화재 — 2030 건강보험 캠페인",
+      "summary": "2030 세대의 건강보험 무관심을 깨는 캠페인을 기획하고 앱 시안을 직접 만들어 발표했다",
+      "period": 2026,
+      "role": "리서치 · 인사이트 도출 · 앱 시안 제작 · 발표",
+      "team": "2명 (당프로팀)",
+      "result": "예선 탈락",
+      "highlights": [
+        "2인 팀",
+        "타깃 2030",
+        "앱 시안 직접 제작"
+      ],
+      "tags": [
+        "광고 기획",
+        "공모전"
+      ],
+      "stack": [
+        "타깃 분석",
+        "캠페인 기획",
+        "AI 앱 시안"
+      ],
+      "thumbnail": "assets/images/kosac/ooh-poster.jpg",
+      "status": "published",
+      "order": 3,
+      "links": {
+        "app": "assets/demos/s-life.html"
+      },
+      "slug": "kosac-2026-samsung",
+      "file": "kosac-2026-samsung.md"
+    },
+    {
+      "title": "나 혼자만 레벨업 팝업스토어 운영 봉사",
+      "summary": "방문객 400명이 넘는 팝업 현장에서 팬이 어떤 공간에 반응하는지 직접 확인했다",
+      "period": 2026,
+      "role": "방문객 안내 · 체험 운영",
+      "team": "현장 봉사 (1일)",
+      "result": "재분배 제안은 반영되지 않음",
+      "highlights": [
+        "활동 1일",
+        "방문객 400명+"
+      ],
+      "tags": [
+        "행사 운영",
+        "현장 경험"
+      ],
+      "stack": [
+        "현장 운영",
+        "방문객 응대",
+        "반응 관찰"
+      ],
+      "status": "published",
+      "order": 4,
+      "slug": "popup-sololeveling",
+      "file": "popup-sololeveling.md"
+    },
+    {
+      "title": "플랫폼 노동자 계약서 검토 AI",
+      "summary": "계약서 사진 속 불리한 조항을 쉬운 말로 알려 주는 AI 서비스를 만들고, 결과를 직접 검증했다",
+      "period": 2026,
+      "role": "문제 정의 · 기획 · 제작 · 검증 (1인)",
+      "team": "개인 작업 (멀티모달콘텐츠제작 수업)",
+      "result": "조항 탐지 정확도 미흡",
+      "highlights": [
+        "실시간 API 연동",
+        "테스트 계약서 3건"
+      ],
+      "tags": [
+        "서비스 기획",
+        "AI"
+      ],
+      "stack": [
+        "실시간 AI API 연동",
+        "결과 검증"
+      ],
+      "status": "published",
+      "order": 5,
+      "slug": "contract-review-ai",
+      "file": "contract-review-ai.md"
     }
   ]
 }

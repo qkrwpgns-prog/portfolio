@@ -109,7 +109,7 @@ section > h2 { font-size: 22px; margin: 0 0 24px; letter-spacing: -0.01em; }
   box-shadow: var(--shadow); color: var(--text); transition: transform .15s, border-color .15s;
 }
 .card:hover { transform: translateY(-2px); border-color: var(--accent); text-decoration: none; }
-.card .thumb { aspect-ratio: 16/9; background: var(--accent-soft); object-fit: cover; width: 100%; border-radius: 0; display: block; }
+.card .thumb { aspect-ratio: 16/9; background: var(--accent-soft); object-fit: cover; object-position: top; width: 100%; border-radius: 0; display: block; }
 .card .thumb.ph { display: grid; place-items: center; font-size: 28px; font-weight: 700; color: var(--accent); }
 .card .body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .card h3 { margin: 0; font-size: 17px; }
@@ -139,6 +139,25 @@ section > h2 { font-size: 22px; margin: 0 0 24px; letter-spacing: -0.01em; }
 .facts dt { font-size: 12px; color: var(--muted); }
 .facts dd { margin: 0; font-size: 14px; }
 .cover { margin-bottom: 24px; }
+
+/* 핵심 수치 배지 */
+.highlights { display: flex; flex-wrap: wrap; gap: 6px; }
+.hl { background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 6px; }
+.detail .highlights { margin-top: 20px; }
+.detail .highlights .hl { font-size: 13px; }
+
+/* 본문 미디어 */
+.gallery { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); margin: 16px 0; }
+.gallery img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.gallery.phones { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.gallery.phones img { aspect-ratio: auto; border: 1px solid var(--line); }
+.gallery.square img { aspect-ratio: auto; }
+.prose figure { margin: 16px 0; }
+.prose figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.video { position: relative; aspect-ratio: 16/9; margin: 16px 0; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 10px; }
+.prose video { width: 100%; max-width: 360px; border-radius: 10px; display: block; }
+.storyboard { width: 100%; border-collapse: collapse; }
 
 .footer { display: flex; justify-content: space-between; padding: 32px 20px 48px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); }
 .loading, .error { padding: 80px 0; color: var(--muted); }

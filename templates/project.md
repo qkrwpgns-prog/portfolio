@@ -6,7 +6,11 @@ role: 맡은 역할 (예: 백엔드 개발, 기획 리드)
 team: 4명 (기획 1, 개발 2, 디자인 1)
 tags: [웹, 팀 프로젝트]
 stack: [사용 기술, 도구]
-thumbnail: assets/images/slug/cover.png
+# thumbnail: 카드 썸네일 / cover: 상세 상단 큰 이미지(선택) / highlights: 상단 배지
+thumbnail: assets/images/slug/thumb.jpg
+cover:
+highlights: [핵심 수치 1, 핵심 수치 2]
+result: 한 줄 결과
 status: draft
 order: 10
 links:
