@@ -2,6 +2,36 @@
   "generated": "2026-11-17",
   "projects": [
     {
+      "title": "KOSAC 2026 삼성화재 — 2030 건강보험 캠페인",
+      "summary": "2030 세대의 건강보험 무관심을 깨는 캠페인을 기획하고 앱 시안을 직접 만들어 발표했다",
+      "period": "2026.03 – 2026.05",
+      "role": "리서치 · 장표 제작 · 옥외광고 시안 · 앱 시안 · 발표",
+      "team": "2명 (당프로팀)",
+      "result": "예선 탈락 (미수상 · 프로젝트 경험)",
+      "highlights": [
+        "2인 팀",
+        "타깃 2030",
+        "앱 시안 직접 제작"
+      ],
+      "tags": [
+        "광고 기획",
+        "공모전"
+      ],
+      "stack": [
+        "타깃 분석",
+        "캠페인 기획",
+        "AI 앱 시안"
+      ],
+      "thumbnail": "assets/images/kosac/ooh-poster.jpg",
+      "status": "published",
+      "order": 1,
+      "links": {
+        "app": "assets/demos/s-life.html"
+      },
+      "slug": "kosac-2026-samsung",
+      "file": "kosac-2026-samsung.md"
+    },
+    {
       "title": "AI 단편 영화 〈심연의 메아리〉",
       "summary": "시나리오부터 편집까지 혼자 4주 만에 완성한 2분 32초 AI 단편 영화",
       "period": "2026.04 – 2026.05",
@@ -26,7 +56,7 @@
       ],
       "thumbnail": "assets/images/abyss/03-vortex.jpg",
       "status": "published",
-      "order": 1,
+      "order": 2,
       "links": {
         "youtube": "https://youtu.be/ewYc5vjO67w"
       },
@@ -56,7 +86,7 @@
       ],
       "thumbnail": "assets/images/keep/keep-home.jpg",
       "status": "published",
-      "order": 2,
+      "order": 3,
       "links": {
         "키프 체험": "https://qkrwpgns-prog.github.io/keep/"
       },
@@ -86,42 +116,12 @@
       ],
       "thumbnail": "assets/images/keep/timekeeper-webtoon.jpg",
       "status": "published",
-      "order": 3,
+      "order": 4,
       "links": {
         "타임 키퍼 체험": "assets/demos/timekeeper.html"
       },
       "slug": "timekeeper-promo",
       "file": "timekeeper-promo.md"
-    },
-    {
-      "title": "KOSAC 2026 삼성화재 — 2030 건강보험 캠페인",
-      "summary": "2030 세대의 건강보험 무관심을 깨는 캠페인을 기획하고 앱 시안을 직접 만들어 발표했다",
-      "period": "2026.03 – 2026.05",
-      "role": "리서치 · 장표 제작 · 옥외광고 시안 · 앱 시안 · 발표",
-      "team": "2명 (당프로팀)",
-      "result": "예선 탈락 (미수상 · 프로젝트 경험)",
-      "highlights": [
-        "2인 팀",
-        "타깃 2030",
-        "앱 시안 직접 제작"
-      ],
-      "tags": [
-        "광고 기획",
-        "공모전"
-      ],
-      "stack": [
-        "타깃 분석",
-        "캠페인 기획",
-        "AI 앱 시안"
-      ],
-      "thumbnail": "assets/images/kosac/ooh-poster.jpg",
-      "status": "published",
-      "order": 4,
-      "links": {
-        "app": "assets/demos/s-life.html"
-      },
-      "slug": "kosac-2026-samsung",
-      "file": "kosac-2026-samsung.md"
     },
     {
       "title": "나 혼자만 레벨업 팝업스토어 운영 봉사",

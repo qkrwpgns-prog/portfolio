@@ -10,7 +10,7 @@ tags: [콘텐츠 제작, AI]
 stack: [Claude, ChatGPT, AI 이미지 생성]
 thumbnail: assets/images/keep/timekeeper-webtoon.jpg
 status: published
-order: 3
+order: 4
 links:
   타임 키퍼 체험: assets/demos/timekeeper.html
 ---

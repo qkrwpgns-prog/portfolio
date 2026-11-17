@@ -10,7 +10,7 @@ tags: [서비스 기획, AI]
 stack: [Claude, ChatGPT, GitHub Pages]
 thumbnail: assets/images/keep/keep-home.jpg
 status: published
-order: 2
+order: 3
 links:
   키프 체험: https://qkrwpgns-prog.github.io/keep/
 ---

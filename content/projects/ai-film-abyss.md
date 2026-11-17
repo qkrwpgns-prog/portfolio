@@ -10,7 +10,7 @@ tags: [콘텐츠 제작, AI]
 stack: [Gemini, Midjourney, Magnific, Suno, Premiere Pro]
 thumbnail: assets/images/abyss/03-vortex.jpg
 status: published
-order: 1
+order: 2
 links:
   youtube: https://youtu.be/ewYc5vjO67w
 ---

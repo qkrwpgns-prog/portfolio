@@ -10,7 +10,7 @@ tags: [광고 기획, 공모전]
 stack: [타깃 분석, 캠페인 기획, AI 앱 시안]
 thumbnail: assets/images/kosac/ooh-poster.jpg
 status: published
-order: 4
+order: 1
 links:
   app: assets/demos/s-life.html
 ---
