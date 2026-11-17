@@ -6,7 +6,10 @@
   let profile = null, about = "", projects = [], activeTag = "전체";
 
   const esc = (s = "") => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const md = s => marked.parse(s || "");
+  // 한국어는 **굵게**)과 처럼 기호 뒤에 조사가 바로 붙으면 마크다운 규칙상 굵게가 닫히지 않는다.
+  // 그래서 marked에 넘기기 전에 **...**를 직접 <strong>으로 바꾼다.
+  const boldFix = s => (s || "").replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
+  const md = s => marked.parse(boldFix(s));
   const stripFrontmatter = text => text.replace(/^---\n[\s\S]*?\n---\n?/, "");
   const fetchText = async url => { const r = await fetch(url, { cache: "no-cache" }); if (!r.ok) throw new Error(url); return r.text(); };
 
