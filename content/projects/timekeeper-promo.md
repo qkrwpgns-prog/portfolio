@@ -41,7 +41,7 @@ links:
   <figure><video src="assets/video/timekeeper-30s.mp4" controls preload="metadata" playsinline></video><figcaption>홍보 영상 (30초)</figcaption></figure>
 </div>
 
-수업 중 짧은 시간에 만든 결과물이라 완성도는 아직 낮다.
+수업 시간 안에 만든 MVP다. 다음 단계로는 전체 디자인을 다시 다듬고 싶다.
 
 ## 배운 점
 
