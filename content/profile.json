@@ -11,19 +11,59 @@
     "youtube": "https://youtu.be/ewYc5vjO67w"
   },
   "skills": {
-    "기획": ["타깃 분석", "인사이트 도출", "전략·캠페인 기획", "발표"],
-    "콘텐츠 제작": ["시나리오", "스토리보드", "영상 편집", "홍보 웹툰"],
-    "AI 툴": ["Gemini", "Midjourney", "Magnific", "Suno"],
-    "툴 · 자격": ["Premiere Pro", "GA4", "GitHub Pages"]
+    "기획": [
+      "타깃 분석",
+      "인사이트 도출",
+      "전략·캠페인 기획",
+      "발표"
+    ],
+    "콘텐츠 제작": [
+      "시나리오",
+      "스토리보드",
+      "영상 편집",
+      "홍보 웹툰"
+    ],
+    "AI 툴": [
+      "Gemini",
+      "Midjourney",
+      "Magnific",
+      "Suno",
+      "Claude",
+      "ChatGPT"
+    ],
+    "툴 · 자격": [
+      "Premiere Pro",
+      "GA4",
+      "GitHub Pages",
+      "Vercel"
+    ]
   },
   "experience": [
-    { "period": "2026", "title": "KOSAC 2026 대한민국 대학생 광고대회 참가", "org": "삼성화재 과제 · 2인 팀(당프로팀)", "desc": "2030 건강보험 캠페인 기획, 앱 시안 제작, 발표" },
-    { "period": "2026", "title": "나 혼자만 레벨업 팝업스토어 운영 봉사", "org": "1일 · 방문객 400명 이상", "desc": "방문객 안내와 체험 운영" }
+    {
+      "period": "2026.03 – 2026.05",
+      "title": "KOSAC 2026 대한민국 대학생 광고대회 (프로젝트 경험)",
+      "org": "삼성화재 과제 · 2인 팀(당프로팀) · 미수상",
+      "desc": "리서치, 장표, 옥외광고·앱 시안 제작, 발표"
+    },
+    {
+      "period": "2026.05.15",
+      "title": "나 혼자만 레벨업 팝업스토어 운영 봉사",
+      "org": "1일 · 방문객 400명 이상",
+      "desc": "방문객 안내와 체험 운영"
+    }
   ],
   "education": [
-    { "period": "2023.03 – 재학 중", "title": "미디어커뮤니케이션학과 (3학년)", "org": "동의대학교" }
+    {
+      "period": "2023.03 – 재학 중",
+      "title": "미디어커뮤니케이션학과 (3학년)",
+      "org": "동의대학교"
+    }
   ],
   "certificates": [
-    { "period": "2026.08", "title": "Google Analytics 4 (GA4) 자격증", "org": "Google" }
+    {
+      "period": "2026.08",
+      "title": "Google Analytics 4 (GA4) 자격증",
+      "org": "Google"
+    }
   ]
 }

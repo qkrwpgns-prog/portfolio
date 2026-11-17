@@ -112,7 +112,9 @@
     const p = projects.find(x => x.slug === slug);
     if (!p || !visible(p)) { app.innerHTML = `<p class="error">프로젝트를 찾을 수 없습니다. <a href="#/">홈으로</a></p>`; return; }
     app.innerHTML = `<p class="loading">불러오는 중…</p>`;
-    const body = stripFrontmatter(await fetchText(`content/projects/${p.file}`));
+    let body;
+    try { body = stripFrontmatter(await fetchText(`content/projects/${p.file}`)); }
+    catch (e) { app.innerHTML = `<p class="error">글을 불러오지 못했습니다. 새로고침해 주세요. <a href="#/">홈으로</a></p>`; return; }
     document.title = `${p.title} · ${profile.name}`;
     const facts = [["기간", p.period], ["역할", p.role], ["팀 구성", p.team], ["결과", p.result], ["사용 툴", (p.stack || []).join(", ")]].filter(([, v]) => v);
     const links = Object.entries(p.links || {}).filter(([, v]) => v);

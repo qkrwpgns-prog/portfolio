@@ -4,7 +4,7 @@
     {
       "title": "AI 단편 영화 〈심연의 메아리〉",
       "summary": "시나리오부터 편집까지 혼자 4주 만에 완성한 2분 32초 AI 단편 영화",
-      "period": 2026,
+      "period": "2026.04 – 2026.05",
       "role": "기획 · 시나리오 · AI 영상 제작 · 편집 (1인)",
       "team": "개인 작업 (수업 과제)",
       "result": "수업 평가 A+",
@@ -36,7 +36,7 @@
     {
       "title": "키프 · 타임 키퍼 — AI로 만든 생활 불편 해결 웹앱",
       "summary": "일상의 불편을 직접 정의하고 AI로 웹앱 2개를 만들어 사용자 테스트로 고쳤다",
-      "period": 2026,
+      "period": "2026.10 – 2026.11",
       "role": "기획 · 제작 · 사용자 테스트 · 홍보 콘텐츠 (1인)",
       "team": "개인 작업 (멀티모달콘텐츠 수업)",
       "result": "테스트 피드백 반영해 키프 개선, 외부 배포",
@@ -50,7 +50,8 @@
         "AI"
       ],
       "stack": [
-        "AI 웹앱 제작",
+        "Claude",
+        "ChatGPT",
         "GitHub Pages",
         "AI 이미지 생성"
       ],
@@ -67,10 +68,10 @@
     {
       "title": "KOSAC 2026 삼성화재 — 2030 건강보험 캠페인",
       "summary": "2030 세대의 건강보험 무관심을 깨는 캠페인을 기획하고 앱 시안을 직접 만들어 발표했다",
-      "period": 2026,
-      "role": "리서치 · 인사이트 도출 · 앱 시안 제작 · 발표",
+      "period": "2026.03 – 2026.05",
+      "role": "리서치 · 장표 제작 · 옥외광고 시안 · 앱 시안 · 발표",
       "team": "2명 (당프로팀)",
-      "result": "예선 탈락",
+      "result": "예선 탈락 (미수상 · 프로젝트 경험)",
       "highlights": [
         "2인 팀",
         "타깃 2030",
@@ -97,7 +98,7 @@
     {
       "title": "나 혼자만 레벨업 팝업스토어 운영 봉사",
       "summary": "방문객 400명이 넘는 팝업 현장에서 팬이 어떤 공간에 반응하는지 직접 확인했다",
-      "period": 2026,
+      "period": "2026.05.15",
       "role": "방문객 안내 · 체험 운영",
       "team": "현장 봉사 (1일)",
       "result": "재분배 제안은 반영되지 않음",
@@ -114,6 +115,7 @@
         "방문객 응대",
         "반응 관찰"
       ],
+      "thumbnail": "assets/images/popup/01.jpg",
       "status": "published",
       "order": 4,
       "slug": "popup-sololeveling",
@@ -122,7 +124,7 @@
     {
       "title": "플랫폼 노동자 계약서 검토 AI",
       "summary": "계약서 사진 속 불리한 조항을 쉬운 말로 알려 주는 AI 서비스를 만들고, 결과를 직접 검증했다",
-      "period": 2026,
+      "period": "2026.10",
       "role": "문제 정의 · 기획 · 제작 · 검증 (1인)",
       "team": "개인 작업 (멀티모달콘텐츠제작 수업)",
       "result": "조항 탐지 정확도 미흡",
@@ -135,11 +137,15 @@
         "AI"
       ],
       "stack": [
-        "실시간 AI API 연동",
+        "Claude API",
         "결과 검증"
       ],
+      "thumbnail": "assets/images/contract/result.jpg",
       "status": "published",
       "order": 5,
+      "links": {
+        "서비스 체험": "https://contract-ai-blond-nine.vercel.app/"
+      },
       "slug": "contract-review-ai",
       "file": "contract-review-ai.md"
     }

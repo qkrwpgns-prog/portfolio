@@ -1,24 +1,29 @@
 ---
 title: 나 혼자만 레벨업 팝업스토어 운영 봉사
 summary: 방문객 400명이 넘는 팝업 현장에서 팬이 어떤 공간에 반응하는지 직접 확인했다
-period: 2026
+period: 2026.05.15
 role: 방문객 안내 · 체험 운영
 team: 현장 봉사 (1일)
 result: 재분배 제안은 반영되지 않음
 highlights: [활동 1일, 방문객 400명+]
 tags: [행사 운영, 현장 경험]
 stack: [현장 운영, 방문객 응대, 반응 관찰]
+thumbnail: assets/images/popup/01.jpg
 status: published
 order: 4
 ---
 
-<!-- [확인 필요: 활동 날짜(월), 현장 사진 사용 가능 여부(초상권)] -->
-
 ## 한눈에 보기
 
-- **상황**: 행사 운영에 관심이 있어 하루 동안 팝업 봉사를 했다. 방문객 400명 이상, 대기 없이 바로 입장하는 현장이었다.
+- **상황**: 행사 운영에 관심이 있어 2026년 5월 15일 하루 동안 팝업 봉사를 했다. 방문객 400명 이상, 대기 없이 바로 입장하는 현장이었다.
 - **내가 한 일**: 방문객 안내와 체험 운영
 - **결과**: 인원 재분배를 제안했지만 반영되지 않았다. 일손이 부족한 상태에서 내 구역을 혼자 끝까지 운영했다.
+
+<div class="gallery">
+  <figure><img src="assets/images/popup/01.jpg" alt="팝업 입구"><figcaption>팝업 입구</figcaption></figure>
+  <figure><img src="assets/images/popup/02.jpg" alt="안내 포스터"><figcaption>안내 포스터</figcaption></figure>
+  <figure><img src="assets/images/popup/03.jpg" alt="봉사 당일"><figcaption>봉사 당일</figcaption></figure>
+</div>
 
 ## 현장에서 본 것 — 팬은 서사가 있는 공간에 반응한다
 

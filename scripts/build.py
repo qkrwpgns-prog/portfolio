@@ -93,8 +93,9 @@ def check(items: list):
 def serve(port=8000):
     os.chdir(ROOT)
     handler = http.server.SimpleHTTPRequestHandler
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", port), handler) as httpd:
+    socketserver.ThreadingTCPServer.allow_reuse_address = True
+    socketserver.ThreadingTCPServer.daemon_threads = True
+    with socketserver.ThreadingTCPServer(("", port), handler) as httpd:
         print(f"→ http://localhost:{port}  (초안 포함: http://localhost:{port}/?draft)  Ctrl+C로 종료")
         httpd.serve_forever()
 
