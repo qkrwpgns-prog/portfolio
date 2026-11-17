@@ -1,0 +1,5 @@
+inbox/*
+!inbox/README.md
+review/
+.DS_Store
+__pycache__/

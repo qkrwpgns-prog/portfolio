@@ -1,0 +1,30 @@
+{
+  "generated": "2026-11-17",
+  "projects": [
+    {
+      "title": "예시 프로젝트 — 캠퍼스 중고거래 앱",
+      "summary": "학내 중고거래 채팅 응답 지연을 줄여 거래 성사율을 높인 팀 프로젝트 (예시 글)",
+      "period": "2025.03 – 2025.06",
+      "role": "백엔드 개발 · 팀장",
+      "team": "4명 (기획 1, 개발 2, 디자인 1)",
+      "tags": [
+        "웹",
+        "팀 프로젝트"
+      ],
+      "stack": [
+        "Spring Boot",
+        "MySQL",
+        "Redis",
+        "AWS"
+      ],
+      "status": "published",
+      "order": 1,
+      "links": {
+        "github": "https://github.com/",
+        "demo": ""
+      },
+      "slug": "example-project",
+      "file": "example-project.md"
+    }
+  ]
+}
