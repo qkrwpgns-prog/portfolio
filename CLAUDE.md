@@ -75,3 +75,7 @@ python3 scripts/build.py --check
 
 정적 사이트라 GitHub Pages / Netlify / Vercel에 폴더째 올리면 된다. 빌드 단계 없음 (`projects.json`만 커밋 전에 최신이면 됨).
 `inbox/`, `review/`는 `.gitignore`에 있어서 공개 저장소에 올라가지 않는다.
+
+- 공개 주소: https://qkrwpgns-prog.github.io/portfolio/ (저장소 qkrwpgns-prog/portfolio, main 브랜치 루트, `.nojekyll` 필수)
+- push는 사용자가 직접 한다 (이 Mac의 키체인 GitHub 계정이 다른 계정이라 Claude가 push할 수 없음).
+- `assets/app.js`나 `assets/style.css`를 고치면 `index.html`의 `?v=숫자`를 하나 올린다 (방문자 브라우저 캐시 갱신).
