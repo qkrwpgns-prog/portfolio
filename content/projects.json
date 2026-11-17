@@ -34,15 +34,15 @@
       "file": "ai-film-abyss.md"
     },
     {
-      "title": "키프 · 타임 키퍼 — AI로 만든 생활 불편 해결 웹앱",
-      "summary": "일상의 불편을 직접 정의하고 AI로 웹앱 2개를 만들어 사용자 테스트로 고쳤다",
+      "title": "키프 — 사용자 테스트로 고친 약속 관리 웹앱",
+      "summary": "친구 사이의 껄끄러운 재촉을 대신해 주는 웹앱을 만들고, 사용자 5명의 피드백으로 고쳐 배포했다",
       "period": "2026.10 – 2026.11",
-      "role": "기획 · 제작 · 사용자 테스트 · 홍보 콘텐츠 (1인)",
+      "role": "기획 · 제작 · 배포 · 사용자 테스트 (1인)",
       "team": "개인 작업 (멀티모달콘텐츠 수업)",
-      "result": "테스트 피드백 반영해 키프 개선, 외부 배포",
+      "result": "테스트 피드백 반영해 개선, GitHub Pages로 외부 공개",
       "highlights": [
-        "웹앱 2개",
         "사용자 테스트 5명",
+        "피드백 반영 개선",
         "GitHub Pages 배포"
       ],
       "tags": [
@@ -52,18 +52,46 @@
       "stack": [
         "Claude",
         "ChatGPT",
-        "GitHub Pages",
-        "AI 이미지 생성"
+        "GitHub Pages"
       ],
       "thumbnail": "assets/images/keep/keep-home.jpg",
       "status": "published",
       "order": 2,
       "links": {
-        "키프 체험": "https://qkrwpgns-prog.github.io/keep/",
+        "키프 체험": "https://qkrwpgns-prog.github.io/keep/"
+      },
+      "slug": "keep",
+      "file": "keep.md"
+    },
+    {
+      "title": "타임 키퍼 — 홍보 웹툰 · 영상 기획",
+      "summary": "스케줄 앱 '타임 키퍼'를 알리려고 사용 전후를 대비한 8컷 웹툰과 30초 영상을 만들었다",
+      "period": "2026.10 – 2026.11",
+      "role": "서비스 기획 · 홍보 콘텐츠 제작 (1인)",
+      "team": "개인 작업 (멀티모달콘텐츠 수업)",
+      "result": "앱 프로토타입, 홍보 웹툰, 홍보 영상 완성",
+      "highlights": [
+        "8컷 웹툰",
+        "30초 영상",
+        "앱 프로토타입"
+      ],
+      "tags": [
+        "콘텐츠 제작",
+        "AI"
+      ],
+      "stack": [
+        "Claude",
+        "ChatGPT",
+        "AI 이미지 생성"
+      ],
+      "thumbnail": "assets/images/keep/timekeeper-webtoon.jpg",
+      "status": "published",
+      "order": 3,
+      "links": {
         "타임 키퍼 체험": "assets/demos/timekeeper.html"
       },
-      "slug": "keep-timekeeper",
-      "file": "keep-timekeeper.md"
+      "slug": "timekeeper-promo",
+      "file": "timekeeper-promo.md"
     },
     {
       "title": "KOSAC 2026 삼성화재 — 2030 건강보험 캠페인",
@@ -88,7 +116,7 @@
       ],
       "thumbnail": "assets/images/kosac/ooh-poster.jpg",
       "status": "published",
-      "order": 3,
+      "order": 4,
       "links": {
         "app": "assets/demos/s-life.html"
       },
@@ -117,7 +145,7 @@
       ],
       "thumbnail": "assets/images/popup/01.jpg",
       "status": "published",
-      "order": 4,
+      "order": 5,
       "slug": "popup-sololeveling",
       "file": "popup-sololeveling.md"
     },
@@ -142,7 +170,7 @@
       ],
       "thumbnail": "assets/images/contract/result.jpg",
       "status": "published",
-      "order": 5,
+      "order": 6,
       "links": {
         "서비스 체험": "https://contract-ai-blond-nine.vercel.app/"
       },

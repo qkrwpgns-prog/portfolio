@@ -10,7 +10,7 @@ tags: [서비스 기획, AI]
 stack: [Claude API, 결과 검증]
 thumbnail: assets/images/contract/result.jpg
 status: published
-order: 5
+order: 6
 links:
   서비스 체험: https://contract-ai-blond-nine.vercel.app/
 ---
